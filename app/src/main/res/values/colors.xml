@@ -69,7 +69,6 @@
     <color name="register_screen_3">#B9665B</color>
     <color name="register_screen_4">#68BF60</color>
 
-
     <color name="app_bg">#0F4671</color>
     <color name="white">#ffffff</color>
     <color name="actionbar_bg">#55ACEE</color>
@@ -115,8 +114,8 @@
     <color name="colorFacebookButtonPressed">#345291</color>
     <color name="colorFacebookButtonDisabled">#e6878787</color>
 
-    <color name="colorPrimary">#3B5998</color>
-    <color name="colorPrimaryDark">#2f4c87</color>
+    <color name="colorPrimary">#527da3</color>
+    <color name="colorPrimaryDark">#426482</color>
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="statusBarColor">#2f4c87</color>
     <color name="windowBackground">#FFFFFF</color>
@@ -132,8 +131,6 @@
 
     <color name="nav_drawer_item_text_color">#37474F</color>
     <color name="nav_drawer_item_icon_tint">#757575</color>
-
-
 
     <!--app market_main color-->
     <color name="market_colorPrimary">#2196F3</color>
@@ -161,6 +158,5 @@
     <color name="market_colorArtBorder">#e2e2e2</color>
     <color name="market_colorOverlaySoft">#1A000000</color>
     <color name="market_colorOverlayDark">#33000000</color>
-
 
 </resources>
