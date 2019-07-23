@@ -417,8 +417,8 @@ public class MarketMainActivity extends AppCompatActivity {
         call.enqueue(new Callback<Setting>() {
             @Override
             public void onResponse(Call<Setting> call, Response<Setting> response) {
-                String package_name = response.body().getPackage_name();
                 try {
+                    String package_name = response.body().getPackage_name();
                     if (BuildConfig.APPLICATION_ID.equals(package_name)) {
                         Log.d("INFO", "Validated");
                     } else {
