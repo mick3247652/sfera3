@@ -381,7 +381,7 @@
                                         android:id="@+id/itemsSpotlightTitle"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/label_items"
+                                        android:text="@string/label_items2"
                                         android:ellipsize="end"
                                         android:maxLines="1"
                                         android:textAllCaps="true"

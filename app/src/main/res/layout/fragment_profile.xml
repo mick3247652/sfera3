@@ -798,7 +798,7 @@
                                     android:layout_height="wrap_content"
                                     android:ellipsize="end"
                                     android:maxLines="1"
-                                    android:text="@string/label_items"
+                                    android:text="@string/label_items2"
                                     android:textAllCaps="true"
                                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                                     android:textColor="@color/gray_border" />

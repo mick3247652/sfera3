@@ -76,7 +76,8 @@ public class ActivityWebView extends AppCompatActivity {
         if (actionBar != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setHomeButtonEnabled(true);
-            getSupportActionBar().setTitle(str_url);
+            //getSupportActionBar().setTitle(str_url);
+            getSupportActionBar().setTitle(getResources().getString(R.string.market_title_nav_category));
         }
     }
 

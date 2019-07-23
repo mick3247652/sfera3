@@ -215,7 +215,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/label_items"
+                    android:text="@string/label_items2"
                     android:id="@+id/profileItemsCount"
                     android:textAllCaps="true"
                     android:textColor="@color/gray_text"

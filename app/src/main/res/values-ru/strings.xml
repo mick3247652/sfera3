@@ -196,6 +196,7 @@
 
 
     <string name="label_items">сообщений</string>
+    <string name="label_items2">сообщения</string>
     <string name="label_online">Онлайн</string>
     <string name="label_offline">Оффлайн</string>
 
