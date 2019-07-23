@@ -4,11 +4,11 @@
     <!--<item android:id="@+id/action_later"
         android:title="@string/market_title_menu_later"
         android:icon="@drawable/market_ic_favorite_outline_white"
-        app:showAsAction="always"  />-->
+        app:showAsAction="always"  />
 
     <item android:id="@+id/action_share"
         android:title="@string/market_title_menu_share"
         android:icon="@drawable/market_ic_menu_share"
-        app:showAsAction="ifRoom"  />
+        app:showAsAction="ifRoom"  />-->
 
 </menu>
