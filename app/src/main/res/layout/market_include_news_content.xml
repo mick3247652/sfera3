@@ -42,8 +42,9 @@
             android:layout_below="@+id/category"
             android:gravity="center_vertical"
             android:orientation="horizontal"
+            android:paddingTop="3dp"
             android:paddingBottom="3dp"
-            android:paddingTop="3dp">
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/date"
@@ -69,10 +70,10 @@
                 android:id="@+id/txt_comment_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingEnd="0dp"
-                android:paddingLeft="3dp"
-                android:paddingRight="0dp"
                 android:paddingStart="3dp"
+                android:paddingLeft="3dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
                 android:text="0"
                 android:textColor="@color/market_colorText" />
 
@@ -112,7 +113,8 @@
                 android:gravity="center"
                 android:text=""
                 android:textColor="@color/market_colorPrimary"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:visibility="gone" />
 
         </com.balysv.materialripple.MaterialRippleLayout>
 

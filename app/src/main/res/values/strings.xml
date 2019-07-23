@@ -972,7 +972,7 @@
 
     <!--bottom market_navigation title-->
     <string name="market_title_nav_home">Home</string>
-    <string name="market_title_nav_category">Category</string>
+    <string name="market_title_nav_category">Market</string>
     <string name="market_title_nav_video">Video</string>
     <string name="market_title_nav_favorite">Favorite</string>
     <string name="market_title_nav_profile">Profile</string>

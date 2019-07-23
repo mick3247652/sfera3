@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="5dp">
@@ -74,7 +75,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/market_spacing_medium"
                         android:gravity="center_vertical"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:visibility="gone">
 
                         <ImageView
                             android:id="@+id/ic_date"
@@ -87,16 +89,16 @@
                             android:id="@+id/date"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="@dimen/market_spacing_small"
                             android:layout_marginStart="@dimen/market_spacing_small"
+                            android:layout_marginLeft="@dimen/market_spacing_small"
                             android:text="2 weeks ago"
                             android:textColor="@android:color/white" />
 
                         <ImageView
                             android:layout_width="14dp"
                             android:layout_height="14dp"
-                            android:layout_marginLeft="8dp"
                             android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
                             android:src="@drawable/market_ic_comment"
                             android:tint="@android:color/white" />
 
@@ -104,11 +106,12 @@
                             android:id="@+id/comment"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="3dp"
                             android:layout_marginStart="3dp"
+                            android:layout_marginLeft="3dp"
                             android:text="2"
                             android:textColor="@android:color/white"
-                            android:textSize="12sp" />
+                            android:textSize="12sp"
+                            android:visibility="gone" />
 
                     </LinearLayout>
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
+   <!-- <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/market_ic_nav_home"
-        android:title="@string/market_title_nav_home" />
+        android:title="@string/market_title_nav_home" /> -->
 
     <item
         android:id="@+id/navigation_category"
         android:icon="@drawable/market_ic_nav_category"
         android:title="@string/market_title_nav_category" />
 
-    <item
+    <!--<item
         android:id="@+id/navigation_video"
         android:icon="@drawable/market_ic_nav_video"
         android:title="@string/market_title_nav_video" />
@@ -24,6 +24,6 @@
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/market_ic_user_account"
-        android:title="@string/market_title_nav_profile" />
+        android:title="@string/market_title_nav_profile" />-->
 
 </menu>

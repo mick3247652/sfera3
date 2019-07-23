@@ -527,7 +527,7 @@ public class ActivityOneSignalDetail extends AppCompatActivity {
     public boolean onCreateOptionsMenu(final Menu menu) {
         getMenuInflater().inflate(R.menu.market_menu_news_detail, menu);
         this.menu = menu;
-        addToFavorite();
+        //addToFavorite();
         return true;
     }
 
@@ -549,7 +549,7 @@ public class ActivityOneSignalDetail extends AppCompatActivity {
                 onBackPressed();
                 break;
 
-            case R.id.action_later:
+            /*case R.id.action_later:
 
                 List<News> data = databaseHandler.getFavRow(nid);
                 if (data.size() == 0) {
@@ -576,7 +576,7 @@ public class ActivityOneSignalDetail extends AppCompatActivity {
                     }
                 }
 
-                break;
+                break;*/
 
             case R.id.action_share:
 

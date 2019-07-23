@@ -108,7 +108,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:gravity="center_vertical"
-                            android:orientation="horizontal">
+                            android:orientation="horizontal"
+                            android:visibility="gone">
 
                             <ImageView
                                 android:id="@+id/ic_date"
@@ -120,16 +121,16 @@
                                 android:id="@+id/date"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="3dp"
                                 android:layout_marginStart="3dp"
+                                android:layout_marginLeft="3dp"
                                 android:text="2 weeks ago"
                                 android:textSize="13sp" />
 
                             <ImageView
                                 android:layout_width="14dp"
                                 android:layout_height="14dp"
-                                android:layout_marginLeft="8dp"
                                 android:layout_marginStart="8dp"
+                                android:layout_marginLeft="8dp"
                                 android:src="@drawable/market_ic_comment"
                                 android:tint="@color/market_colorGreyDark" />
 
@@ -137,8 +138,8 @@
                                 android:id="@+id/comment"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="3dp"
                                 android:layout_marginStart="3dp"
+                                android:layout_marginLeft="3dp"
                                 android:text="2"
                                 android:textSize="13sp" />
 

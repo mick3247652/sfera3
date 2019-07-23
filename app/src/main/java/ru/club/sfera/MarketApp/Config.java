@@ -20,7 +20,7 @@ public class Config {
     public static final boolean ENABLE_FIXED_BOTTOM_NAVIGATION = true;
     public static final boolean ENABLE_POST_COUNT_IN_CATEGORY = false;
     public static final boolean FORCE_PLAYER_TO_LANDSCAPE = false;
-    public static final boolean ENABLE_DATE_DISPLAY = true;
+    public static final boolean ENABLE_DATE_DISPLAY = false;
     public static final boolean DATE_DISPLAY_AS_TIME_AGO = false;
 
     //news description configuration

@@ -75,7 +75,8 @@ public class MarketMainActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private Toolbar toolbar;
     MenuItem prevMenuItem;
-    int pager_number = 5;
+    //int pager_number = 5;
+    int pager_number = 1;
     SharedPreferences preferences;
     BroadcastReceiver broadcastReceiver;
     View view;
@@ -121,13 +122,14 @@ public class MarketMainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
-                    case R.id.navigation_home:
+                    /*case R.id.navigation_home:
+                        viewPager.setCurrentItem(0);
+                        return true;*/
+                    case R.id.navigation_category:
+                        //viewPager.setCurrentItem(1);
                         viewPager.setCurrentItem(0);
                         return true;
-                    case R.id.navigation_category:
-                        viewPager.setCurrentItem(1);
-                        return true;
-                    case R.id.navigation_video:
+                    /*case R.id.navigation_video:
                         viewPager.setCurrentItem(2);
                         return true;
                     case R.id.navigation_favorite:
@@ -135,7 +137,7 @@ public class MarketMainActivity extends AppCompatActivity {
                         return true;
                     case R.id.navigation_profile:
                         viewPager.setCurrentItem(4);
-                        return true;
+                        return true;*/
                 }
                 return false;
             }
@@ -160,7 +162,8 @@ public class MarketMainActivity extends AppCompatActivity {
                 navigation.getMenu().getItem(position).setChecked(true);
                 prevMenuItem = navigation.getMenu().getItem(position);
 
-                if (viewPager.getCurrentItem() == 1) {
+                //if (viewPager.getCurrentItem() == 1) {
+                if (viewPager.getCurrentItem() == 0) {
                     toolbar.setTitle(getResources().getString(R.string.title_activity_market));
                 } else if (viewPager.getCurrentItem() == 2) {
                     toolbar.setTitle(getResources().getString(R.string.market_title_nav_video));
@@ -345,16 +348,17 @@ public class MarketMainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
 
             switch (position) {
+                /*case 0:
+                    return new FragmentRecent();*/
+                //case 1:
                 case 0:
-                    return new FragmentRecent();
-                case 1:
                     return new FragmentCategory();
-                case 2:
+                /*case 2:
                     return new FragmentVideo();
                 case 3:
                     return new FragmentFavorite();
                 case 4:
-                    return new FragmentProfile();
+                    return new FragmentProfile();*/
             }
             return null;
         }
