@@ -338,6 +338,7 @@
         </activity>-->
         <activity
             android:name="ru.club.sfera.MarketApp.activities.MarketMainActivity"
+            android:label="@string/title_activity_market"
             android:configChanges="orientation|keyboardHidden|screenSize">
         </activity>
         <activity

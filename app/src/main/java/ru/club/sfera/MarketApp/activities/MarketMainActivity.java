@@ -107,7 +107,7 @@ public class MarketMainActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbarMarket);
         setSupportActionBar(toolbar);
-        toolbar.setTitle(R.string.market_app_name);
+        //toolbar.setTitle(R.string.market_app_name);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
@@ -161,7 +161,7 @@ public class MarketMainActivity extends AppCompatActivity {
                 prevMenuItem = navigation.getMenu().getItem(position);
 
                 if (viewPager.getCurrentItem() == 1) {
-                    toolbar.setTitle(getResources().getString(R.string.market_title_nav_category));
+                    toolbar.setTitle(getResources().getString(R.string.title_activity_market));
                 } else if (viewPager.getCurrentItem() == 2) {
                     toolbar.setTitle(getResources().getString(R.string.market_title_nav_video));
                 }else if (viewPager.getCurrentItem() == 0) {
