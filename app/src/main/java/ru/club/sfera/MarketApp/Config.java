@@ -3,15 +3,16 @@ package ru.club.sfera.MarketApp;
 public class Config {
 
     //put your admin panel url here
-    public static final String ADMIN_PANEL_URL = "http://10.0.2.2/android_news_app";
+    //public static final String ADMIN_PANEL_URL = "http://10.0.2.2/android_news_app";
+    public static final String ADMIN_PANEL_URL = "http://rumarket.icu";
 
     //your api key which obtained from admin panel
-    public static final String API_KEY = "cda11v2OkqSI1rhQm37PBXKnpisMtlaDzoc4w0U6uNATgZRbJG";
+    public static final String API_KEY = "cda116IPkf9H1tOQVlr4dpKoviRE5g8qUescFWwaYLATbJx0Cn";
 
     //Ads Configuration
     //set true to enable or set false to disable
-    public static final boolean ENABLE_ADMOB_BANNER_ADS = true;
-    public static final boolean ENABLE_ADMOB_INTERSTITIAL_ADS = true;
+    public static final boolean ENABLE_ADMOB_BANNER_ADS = false;
+    public static final boolean ENABLE_ADMOB_INTERSTITIAL_ADS = false;
     public static final int ADMOB_INTERSTITIAL_ADS_INTERVAL = 3;
     public static final boolean ENABLE_ADMOB_INTERSTITIAL_ADS_ON_CLICK_VIDEO = false;
 
