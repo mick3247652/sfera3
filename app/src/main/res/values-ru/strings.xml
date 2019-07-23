@@ -3,7 +3,7 @@
     <!-- Edit the following data -->
 
     <string name="app_name">СФЕРА</string>
-    <string name="app_version">2.1</string>
+    <string name="app_version">2.4</string>
     <string name="app_year">2019</string>
     <string name="app_copyright">sfera.press</string>
     <string name="app_email">support@sfera.press</string>
@@ -46,7 +46,7 @@
     <string name="action_refresh">Обновить</string>
     <string name="action_report">Пожаловаться</string>
     <string name="action_remove">Удалить</string>
-    <string name="action_remove_all">Удалить все</string>
+    <string name="action_remove_all">Удалить всё</string>
     <string name="action_remove_chat">Удалить чат</string>
     <string name="action_deactivate">Деактивировать</string>
     <string name="action_create">Создать</string>
@@ -174,7 +174,7 @@
     <string name="label_block">Заблокировать</string>
     <string name="label_block_msg">Этот пользователь будет заблокирован и не сможет писать комментарии к вашим публикациям и отправлять сообщения, а также вы не увидите уведомлений от этого пользователя</string>
     <string name="label_delete">Удалить</string>
-    <string name="label_delete_msg">Вы хотите удалить это сообщение?</string>
+    <string name="label_delete_msg">Вы хотите удалить этот пост?</string>
     <string name="label_delete_comment">Вы уверены, что хотите удалить этот комментарий?</string>
     <string name="label_post_report_title">Пожаловаться</string>
     <string name="label_last_message_image">Фото</string>
@@ -273,7 +273,7 @@
     <string name="nav_feed">Стена</string>
     <string name="nav_stream">Лента</string>
     <string name="nav_music">Музыка</string>
-
+    <string name="title_market">Маркет</string>
     <string name="nav_nearby">Рядом с вами</string>
     <string name="nav_favorites">Избранное</string>
     <string name="nav_notifications">Уведомления</string>
@@ -282,8 +282,6 @@
     <string name="nav_guests">Гости</string>
     <string name="nav_profile">Профиль</string>
     <string name="nav_settings">Настройки</string>
-
-    <string name="title_market">Магазин</string>
 
     <string name="title_activity_login">Вход</string>
     <string name="title_activity_signup">Регистрация</string>
@@ -442,11 +440,11 @@
     <string name="msg_post_has_shared_error">Вы не можете делать репост своим постам.</string>
     <string name="label_gcm_follower">У вас новый читатель.</string>
     <string name="label_post_share_desc">Вы хотите опубликовать этот пост на своей стене?</string>
-    <string name="label_profile_reported">Жалоба на профиль.</string>
-    <string name="label_post_reported">Жалоба на пост.</string>
+    <string name="label_profile_reported">Жалоба отправлена.</string>
+    <string name="label_post_reported">Жалоба отправлена.</string>
     <string name="label_follow_you">вы читаете.</string>
     <string name="label_post_to">В:</string>
-    <string name="label_post_to_followers">Участников</string>
+    <string name="label_post_to_followers">Участники</string>
     <string name="label_post_to_public">Для всех</string>
     <string name="label_followers">участников</string>
     <string name="label_followings">читаемых</string>
@@ -456,7 +454,7 @@
     <string name="title_activity_followers">Участники</string>
     <string name="title_activity_feeds">Новости</string>
     <string name="title_activity_likes">Люди, которым это нравится</string>
-    <string name="title_activity_pro">ProActivity</string>
+    <string name="title_activity_pro">Аккаунт про</string>
     <string name="hello_blank_fragment">Здравствуйте</string>
     <string name="title_activity_repost">Поделиться постом</string>
     <string name="label_delete_photo_msg">Вы хотите удалить эту фотографию?</string>
@@ -540,13 +538,13 @@
     <string name="action_buy_iap1">Buy 30 Credits ($1)</string>
     <string name="action_buy_iap2">Buy 70 Credits ($2)</string>
     <string name="action_buy_iap3">Buy 120 Credits ($3)</string>
-    <string name="action_buy">Buy Credits</string>
-    <string name="action_credits_name">Credits</string>
+    <string name="action_buy">Купить кредиты</string>
+    <string name="action_credits_name">Кредиты</string>
     <string name="placeholder_gift">Комментарий к подарку&#8230;</string>
     <string name="title_activity_select_gift">Выбрать подарок</string>
     <string name="title_activity_send_gift">Отправить Подарок</string>
 
-    <string name="action_buy_sms">Buy Credits with SMS</string>
+    <string name="action_buy_sms">Купить кредиты по SMS</string>
     <string name="title_activity_view_image">Изображение</string>
     <string name="label_image_for_public">Для всех</string>
     <string name="label_image_for_friends">Читатели</string>
@@ -575,7 +573,7 @@
     <string name="label_post_to_friends">Для друзей</string>
 
     <string name="title_activity_welcome">Добро пожаловать</string>
-    <string name="title_activity_referrals">Реффералы</string>
+    <string name="title_activity_referrals">Рефералы</string>
 
     <string name="welcome_screen_1_title">Добро пожаловать!</string>
     <string name="welcome_screen_2_title">Фото и видео</string>
@@ -594,63 +592,63 @@
     <string name="label_signup_invite">ID пользователя, который пригласил вас (необязательно)</string>
     <string name="label_user_id">ID пользователя</string>
 
-    <string name="settings_view_referrals_list">Реффералы</string>
+    <string name="settings_view_referrals_list">Рефералы</string>
 
-    <string name="label_referrals_id">You User Id:</string>
-    <string name="label_referrals_hint">Invite your friends and get Credits!</string>
-    <string name="label_referrals_hint2">Referrals are people who registered at your invitation.</string>
-    <string name="page_16">Market</string>
-    <string name="title_activity_market">Market</string>
-    <string name="title_activity_market_new_item">Новый пост</string>
-    <string name="title_activity_market_view_item">View Item</string>
-    <string name="title_activity_market_my_items">My Items</string>
+    <string name="label_referrals_id">Ваш ID пользователя:</string>
+    <string name="label_referrals_hint">Приглашайте друзей и получайте кредиты!</string>
+    <string name="label_referrals_hint2">Рефералы-это люди, зарегистрировавшиеся по вашему приглашению.</string>
+    <string name="page_16">Маркет</string>
+    <string name="title_activity_market">Маркет</string>
+    <string name="title_activity_market_new_item">Новый товар</string>
+    <string name="title_activity_market_view_item">Просмотр товара</string>
+    <string name="title_activity_market_my_items">Мои товары</string>
 
-    <string name="action_market_my_items">Show My Items</string>
+    <string name="action_market_my_items">Просмотреть мои товары</string>
 
     <string name="label_currency">$</string>
-    <string name="label_market_search_start_screen_msg">Find Items by title, content or description.</string>
-    <string name="label_view_author_profile">View Profile</string>
-    <string name="label_item_delete_msg">Do you want to delete this Item?</string>
-    <string name="label_item_price_placeholder">Price</string>
-    <string name="label_market_results_error">No items found</string>
-    <string name="label_market_search_results">Find items:</string>
-    <string name="msg_item_select_price">Enter your price!</string>
+    <string name="label_market_search_start_screen_msg">Поиск товаров по названию, содержанию или описанию.</string>
+    <string name="label_view_author_profile">Просмотр профиля</string>
+    <string name="label_item_delete_msg">Вы хотите удалить этот товар?</string>
+    <string name="label_item_price_placeholder">Цены</string>
+    <string name="label_market_results_error">Не найдено товаров</string>
+    <string name="label_market_search_results">Найти товары:</string>
+    <string name="msg_item_select_price">Введите свою цену!</string>
     <string name="label_chat_media">Медиа</string>
     <string name="label_chat_stickers">Стикеры</string>
 
     <string name="channel_name">Скачать СФЕРА https://play.google.com/store/apps/details?id=ru.club.sfera</string>
     <string name="title_activity_view_youtube_video">YouTube видео</string>
-    <string name="youtube_player_error">Error initializing YouTube player: %s</string>
-    <string name="label_only_with_photo">Only with photo</string>
-    <string name="label_additional">Additional</string>
+    <string name="youtube_player_error">Ошибка инициализации проигрывателя YouTube: %s</string>
+    <string name="label_only_with_photo">Только с фото</string>
+    <string name="label_additional">Дополнительно</string>
     <string name="title_dialog_nearby_sex">Выбрать пол</string>
-    <string name="label_gender_any">Any</string>
+    <string name="label_gender_any">Любой</string>
     <string name="action_nearby_sex_settings">Выбрать пол</string>
 
-    <string name="label_multi_account_msg">You can not create multi-accounts!</string>
-    <string name="label_updated_profile_photo">updated profile photo.</string>
-    <string name="label_updated_cover_photo">updated cover image.</string>
+    <string name="label_multi_account_msg">Вы не можете создать несколько учетных записей!</string>
+    <string name="label_updated_profile_photo">обновил фото профиля.</string>
+    <string name="label_updated_cover_photo">обновлено изображение обложки.</string>
 
-    <string name="msg_success_rewarded">Congratulations! The reward for viewing advertising is credited to your balance!</string>
+    <string name="msg_success_rewarded">Поздравляем! Вознаграждение за просмотр рекламы зачисляется на ваш баланс!</string>
 
-    <string name="action_view_rewarded_video_ad">Get rewards for viewing ads</string>
+    <string name="action_view_rewarded_video_ad">Получайте вознаграждение за просмотр рекламы</string>
 
-    <string name="action_profile_edit_feeling">Set Mood</string>
-    <string name="title_activity_feelings">Feelings</string>
-    <string name="label_item_feeling">is feeling</string>
-    <string name="label_feeling">Feeling</string>
-    <string name="action_select_feeling">Select Feeling</string>
+    <string name="action_profile_edit_feeling">Установить настроение</string>
+    <string name="title_activity_feelings">Настроения</string>
+    <string name="label_item_feeling">настроение</string>
+    <string name="label_feeling">Настроение</string>
+    <string name="action_select_feeling">Выбрать настроение</string>
 
-    <string name="msg_system_post">You can not edit standard posts created by the system</string>
+    <string name="msg_system_post">Вы не можете редактировать стандартные сообщения, созданные системой</string>
 
     <string name="tab_feed">Новости</string>
     <string name="tab_groups">Сообщества</string>
-    <string name="tab_managed_groups">Управляемые сообщества</string>
+    <string name="tab_managed_groups">Ваши сообщества</string>
     <string name="tab_profile">Профиль</string>
     <string name="tab_notifications">Уведомления</string>
     <string name="tab_messages">Сообщения</string>
     <string name="tab_menu">Меню</string>
-    <string name="tab_upgrades">Upgrades</string>
+    <string name="tab_upgrades">Улучшения</string>
     <string name="tab_favorites">Избранное</string>
     <string name="tab_guests">Гости</string>
     <string name="tab_friends">Друзья</string>
@@ -659,7 +657,7 @@
     <string name="tab_stream">Лента</string>
     <string name="tab_settings">Настройки</string>
     <string name="tab_market">Маркет</string>
-    <string name="tab_my_products">My Products</string>
+    <string name="tab_my_products">Мои товары</string>
     <string name="tab_popular">Популярное</string>
 
     <string name="nav_groups">@string/tab_groups</string>
@@ -694,7 +692,7 @@
     <string name="action_choose_gender">Пол</string>
     <string name="action_grant_access">Предоставить доступ</string>
     <string name="action_grant_access_success">Доступ предоставлен</string>
-    <string name="action_get_balance">Buy credits</string>
+    <string name="action_get_balance">Купить кредиты</string>
 
     <string name="register_screen_2_msg">Пожалуйста, выберите фотографию для вашего профиля.</string>
     <string name="register_screen_2_title">Ваша фотография</string>
@@ -707,10 +705,10 @@
     <string name="register_screen_4_title">Кто рядом</string>
     <string name="register_screen_4_subtitle">Для доступа к некоторым функциям, приложению требуется разрешение на использование вашего местоположения.</string>
 
-    <string name="label_secret">Secret</string>
+    <string name="label_secret">Секрет</string>
     <string name="label_unknown">Unknown</string>
-    <string name="label_sex_secret">Gender is Secret</string>
-    <string name="label_sex_unknown">Gender is Unknown</string>
+    <string name="label_sex_secret">Пол-секрет</string>
+    <string name="label_sex_unknown">Пол-Unknown</string>
 
     <string name="label_register_terms">Нажав продолжить, Вы соглашаетесь с нашим</string>
 
@@ -734,21 +732,20 @@
 
     <string name="action_view_repost">Показать репост</string>
 
-    <string name="image_of">%1$d of %2$d</string>
-    <string name="price_of">%d credits</string>
-    <string name="images_limit_of">You have reached the limit. No more than %d images per post.</string>
-    <string name="video_limit_of">You have reached the limit. No more than %d video files per post.</string>
-    <string name="account_balance_label">You balance %d credits</string>
+    <string name="image_of">%1$d из %2$d</string>
+    <string name="price_of">%d кредитов</string>
+    <string name="images_limit_of">Вы достигли предела. Не более %d изображений на пост.</string>
+    <string name="video_limit_of">Вы достигли предела. Не более %d видеофайлов на запись.</string>
+    <string name="account_balance_label">На вашем балансе %d кредитов</string>
 
     <string name="label_empty_comments_list">Комментариев пока нет.</string>
 
-    <string name="label_profile_photo_rejected_new">%s rejected you profile photo. Upload/change profile photo.</string>
-    <string name="label_profile_cover_rejected_new">%s rejected you profile cover. Upload/change profile cover.</string>
+    <string name="label_profile_photo_rejected_new">%s отклонено фото профиля. Загрузить / изменить фотографию профиля.</string>
+    <string name="label_profile_cover_rejected_new">%s отклонил вашу обложку профиля. Загрузить/изменить обложку профиля.</string>
 
-    <string name="label_gcm_profile_photo_reject">Фотография профиля отклоняется.</string>
-    <string name="label_gcm_profile_cover_reject">Обложка профиля отклоняется.</string>
+    <string name="label_gcm_profile_photo_reject">Фотография профиля отклонена.</string>
+    <string name="label_gcm_profile_cover_reject">Обложка профиля отклонена.</string>
     <string name="placeholder_post">Что вы хотите написать?</string>
-
 
     <string name="market_app_name">Android News App</string>
     <string name="market_app_version">Version 3.2.0</string>
@@ -913,5 +910,6 @@
 
     <!--close message-->
     <string name="market_press_again_to_exit">Press again to exit app</string>
+
 
 </resources>
